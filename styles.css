@@ -1,0 +1,116 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #0f3685;
+    color: 0f3685;
+    padding: 1rem 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 150px; /* Ajusta el ancho del logo */
+    height: auto; /* Mantiene la proporción del logo */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Añade espacio entre los enlaces de navegación */
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Slider */
+.slider img {
+    width: 100%; /* La imagen ocupará todo el ancho del slider */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    border-radius: 10px; /* Añade bordes redondeados a las imágenes (opcional) */
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.service-item {
+    width: 30%;
+}
+
+#nosotros, #contacto {
+    padding: 2rem;
+}
+
+form input, form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
